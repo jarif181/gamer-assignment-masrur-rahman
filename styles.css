@@ -74,7 +74,7 @@ nav {
 
 }
 
-.fa-brands {
+.coy{
     margin-left: 15px;
     font-size: 1.25rem;
     color: #F61C0D;
@@ -101,7 +101,6 @@ nav {
 
 .a {
     color: rgba(11, 2, 35, 1);
-    text-align: center;
     font-size: 48px;
     font-weight: 600;
     text-transform: uppercase;
@@ -159,4 +158,55 @@ nav {
     font-weight: 500;
     line-height: 30px;
 }
-.
+.all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px 240px 0px 439px;
+    
+
+}
+footer{
+    background-color: #0B0223;
+}
+.ghy{
+    padding: 120px 883px 0px 883px;
+    
+}
+.jh{
+    color: #FFF;
+}
+.div-2{
+    padding: 56px 553px 0px 583px;
+    
+    display: flex;
+}
+.div-2 >ul{
+    gap: 60px;
+    display: flex;
+    
+}
+.div-2 ul li{
+    list-style: none;
+    text-align: center;
+    align-items: center;
+}
+.div-2 ul li a{
+    text-decoration: none;
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+}
+.div-3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    color: #FFF;
+    margin-top: 66px;
+}
+.fa-twitter ,.fay , .fa-facebook ,.fa-linkedin-in ,.fa-instagram ,.fa-apple{
+    font-size: 2.5rem;
+}
