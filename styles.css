@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 37px 240px;
+    
+}
+
+.gamer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.co {
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223;
+
+}
+
+.colors {
+    color: #F948B2;
+}
+
+.icons {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.icons>ul {
+    display: flex;
+    align-items: center;
+
+}
+
+.icons ul li {
+    list-style: none;
+    margin-right: 32px;
+
+}
+
+.icons ul li a {
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.sp {
+    color: #3C354F;
+}
+
+.btn {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    border: none;
+    padding: 15px 35px 15px 24px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.fa-brands {
+    margin-left: 15px;
+    font-size: 1.25rem;
+    color: #F61C0D;
+}
+
+.fa-tiktok {
+    color: rgba(0, 0, 0, 1);
+
+}
+
+.full {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(./images/Group\ 14.png);
+    background-repeat: no-repeat;
+    gap: 68px;
+}
+
+.part-1 {
+
+    padding: 169px 309px 169px 240px;
+}
+
+.a {
+    color: rgba(11, 2, 35, 1);
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+
+.bold {
+    color: #F948B2;
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.c {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.btm {
+    border-radius: 48px;
+    background-color: #FF42A5;
+    border: none;
+    padding: 21px 40px;
+    gap: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 24px;
+}
+
+.btmn {
+    background-color: #4EC5F7;
+}
+
+.part-2 {
+    width: 100%;
+}
+.funny{
+    text-align: center;
+    margin-top: 120px;
+}
+.imgs{
+    display: flex;
+    justify-content: space-between;
+    margin: 48px 240px 0px 240px ;
+    gap: 56px;
+    
+}
+.pt{
+    width: 65%;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.
