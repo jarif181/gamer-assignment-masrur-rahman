@@ -75,7 +75,7 @@ nav {
 }
 
 .coy{
-    margin-left: 15px;
+    margin-left: 5px;
     font-size: 1.25rem;
     color: #F61C0D;
 }
@@ -209,4 +209,26 @@ font-weight: 600;
 }
 .fa-twitter ,.fay , .fa-facebook ,.fa-linkedin-in ,.fa-instagram ,.fa-apple{
     font-size: 2.5rem;
+}
+.div-4{
+    display: flex;
+}
+.div-2 >ul{
+    gap: 60px;
+    display: flex;
+}
+
+.gdg{
+    color: rgba(255, 255, 255, 0.60);
+font-size: 16px;
+font-weight: 500;
+}
+.gyg{
+    text-align: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.60);
+font-size: 16px;
+font-weight: 500;
+padding-bottom: 130px;
+padding-top: 20px;
 }
