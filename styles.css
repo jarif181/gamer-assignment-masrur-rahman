@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
@@ -91,7 +91,7 @@ nav {
     justify-content: space-between;
     background-image: url(./images/Group\ 14.png);
     background-repeat: no-repeat;
-    
+
 }
 
 .part-1 {
@@ -140,7 +140,8 @@ nav {
 .part-2 img {
     width: 100%;
 }
-.part-2{
+
+.part-2 {
     padding-right: 240px;
 }
 
@@ -173,75 +174,84 @@ nav {
 
 
 }
-.divcc{
+
+.divcc {
     position: relative;
     /* margin-bottom: 55px; */
 }
-.absulate  img{
+
+.absulate img {
     width: 100%;
 }
-.absulated{
+
+.absulated {
     position: absolute;
     top: 340px;
     right: 200px;
     width: 100%;
-    /* height: 100%; */ 
+    /* height: 100%; */
     /* margin-bottom: 50px; */
     z-index: 1;
 }
-.absulate{
+
+.absulate {
     height: 100%;
     width: 100%;
 }
 
-.hf{
+.hf {
     color: #0B0223;
-font-size: 20px;
-font-weight: 600;
-gap: 10px;
-text-align: center;
-align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
 }
-.divv{
-   
-    
+
+.divv {
+
+
     background-color: #FFF;
     display: flex;
     align-items: center;
     text-align: center;
     width: auto;
     padding: 5px 8px
-    /* padding: 0px 60px; */
+        /* padding: 0px 60px; */
 }
-.logof{
+
+.logof {
     padding: 120px 289px 120px 239px;
     margin-top: 200px;
-     
+
 }
-.justt{
+
+.justt {
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(6, 1fr);
     text-align: center;
     align-items: center;
     gap: 40px;
     margin-top: 40px;
 }
-.divv:hover{
+
+.divv:hover {
     border: 1px solid #FF42A5;
     box-sizing: border-box;
     border-radius: 50px;
     box-shadow: 3px 3px 55px 1px #FF42A5;
 }
-.hghy{
-    
+
+.hghy {
+
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     text-align: center;
     align-items: center;
     gap: 20px;
-    padding: 20px 289px; 
+    padding: 20px 289px;
 
-    
+
 }
 
 
@@ -263,49 +273,54 @@ footer {
 .jh {
     color: #FFF;
 }
-.div-2{
+
+.div-2 {
     display: grid;
-    grid-template-columns: repeat(6,.2fr);
+    grid-template-columns: repeat(6, .2fr);
     padding-top: 30px;
-    
+
 }
 
-.gdg{
+.gdg {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    
+    grid-template-columns: repeat(4, 1fr);
+
 }
-.div-2 li{
+
+.div-2 li {
     list-style: none;
 }
-.moon{
+
+.moon {
     color: #FFF;
     text-decoration: none;
-font-size: 18px;
-font-weight: 600;
+    font-size: 18px;
+    font-weight: 600;
 }
-.mj{
+
+.mj {
     color: rgba(255, 255, 255, 0.60);
-text-align: center;
-font-size: 16px;
-font-weight: 500;
-text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
 }
 
 
 .div-3 {
     display: grid;
-    grid-template-columns: repeat(6,.01fr);
+    grid-template-columns: repeat(6, .01fr);
     text-align: center;
     justify-content: center;
     align-items: center;
     gap: 60px;
     color: #FFF;
     padding-top: 30px;
-    
-    
+
+
 }
-.hgt{
+
+.hgt {
     border: none;
     background-color: #0B0223;
     color: #fff;
@@ -328,64 +343,104 @@ text-decoration: none;
     color: rgba(255, 255, 255, 0.60);
     font-size: 16px;
     font-weight: 500;
-    padding-bottom: 130px;
+    padding-bottom: 50px;
     padding-top: 20px;
 }
+
 @media screen and (max-width: 576px) {
 
 
-    nav , .icons ,.full ,.imgs ,.all,.hghy,.justt ,.logof ,.gdg,.div-2{
+    nav,
+    .icons,
+    .full,
+    .imgs,
+    .all,
+    .hghy,
+    .justt,
+    .logof,
+    .gdg,
+    .div-2,
+    .div-3 {
         flex-direction: column;
     }
 
-    nav , .part-1 ,  .part-2 ,.imgs ,.divc ,.all {
+    nav,
+    .part-1,
+    .part-2,
+    .imgs,
+    .divc,
+    .all {
         padding: 50px;
     }
-    .gamer , .icons{
+
+    .gamer,
+    .icons {
         margin-bottom: 25px;
     }
 
-    .imgs ,.all  {
+    .imgs,
+    .all {
         margin: 0;
     }
-    .absulated{
+
+    .absulated {
         top: 200px;
         right: 100px;
         left: -50px;
-          
+
     }
-    footer{
-        padding: 10px;
+
+    footer {
+        padding: 50px;
     }
-    .div-2{
-        grid-template-columns: repeat(3,1fr);
-        
+
+    .div-2 {
+        grid-template-columns: repeat(3, 1fr);
+
     }
-    .justt,.hghy ,.logof {
-        grid-template-columns: repeat(2,1fr);
+
+    .justt,
+    .hghy,
+    .logof {
+        grid-template-columns: repeat(2, 1fr);
         padding: 20px;
-        
-        
+
+
     }
-    .ghy{
+
+    .ghy {
         padding: 120px 120px 0px 120px;
         margin-bottom: 0px;
     }
-    .gdg{
-        grid-template-columns: repeat(2,1fr);
+
+    .div-3 {
+        grid-template-columns: repeat(3, .5fr);
     }
-    
-     .mj{
+
+
+
+
+    .gdg {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mj {
         font-size: 14px;
-font-weight:500;
+        font-weight: 500;
 
     }
-    .div-2 > li{
+
+    .div-2>li {
         padding-top: 20px;
     }
 
+    .moon {
+        font-size: 16px;
+        font-weight: 500;
+    }
 
-    
+
+
 
 
 
